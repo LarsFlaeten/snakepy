@@ -1,7 +1,7 @@
 # snakepy
 A simple snake game I wrote with my kids. The idea was to demonstrate simple programming and how to develop the game based on rules we discussed and implemented.
 
-This is a gret way to demonstate to kids how games (or computer programs in general) are developed in a simple way.
+This is a great way to demonstate to kids how games (or computer programs in general) are developed in a simple way, by starting with a simple MVP and develop according to rules along the way.
 
 To run:
 ```python3 snake.py```
@@ -14,5 +14,5 @@ To run:
 - Added apples that would increase the lenght of the snake if the head coincided with the fruit position. Test how different speeds made it harder to hit the food.
 - Major design change: Fruit should be replaced with a pancake (Requirement from the kids)
 - Place a new pancake at a random position once the previous had been eaten
-- Implement collission detection against walls (certain death!)
+- Implement collision detection against walls (certain death!)
 - Implement a points counter
